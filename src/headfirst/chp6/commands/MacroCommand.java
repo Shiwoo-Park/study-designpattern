@@ -17,7 +17,7 @@ public class MacroCommand implements Command{
 			cmd.execute();
 		}
 	}
-	
+
 	@Override
 	public void undo() {
 		int cmdLen = commands.size();
